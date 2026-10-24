@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build:apk-web": "node scripts/build-capacitor-web.mjs",
     "start": "next start",
     "lint": "next lint",
     "test:e2e": "playwright test"
