@@ -1,0 +1,20 @@
+{
+  "avoid": [
+    "Regrind",
+    "PlotPilot",
+    "PlotPilot Ltd"
+  ],
+  "app_store": {
+    "name": "Recover: Screen Time Wallet",
+    "subtitle": "Earn Focus & Unlock Apps",
+    "promotional_text": "Bank focus sessions with your screen locked, count up with the open-ended stopwatch, and spend credits by the single minute to unlock apps.",
+    "description": "Recover turns your daily focus into spendable screen time.\n\nStandard app timers fail because one tap dismisses them when willpower is low. With Recover, distracting apps stay locked by default. Every minute you focus deposits Credits onto your metallic Recover Card, and every minute on social feeds or games is paid for from your card balance.\n\nBuilt around how people actually study and work:\n- Screen-off background sessions: lock your phone, save battery, and keep banking Credits without a glowing screen on your desk.\n- Open-ended stopwatch mode: start focusing without guessing a fixed timer length and bank your exact elapsed minutes when you finish.\n- 1-minute micro-withdrawals: need 60 seconds to reply to a friend? Spend 1 Credit for 1 minute instead of wasting a 15-minute block.\n- Early re-lock refunds: done scrolling early? Tap Re-lock & Refund to return unused whole minutes straight to your card.\n- Silent haptic completion toggle: finish study blocks with a subtle vibration that never interrupts your background music or playlist.\n- Hardware anti-cheat: optional accelerometer motion guard, AR Lock Box camera vault, biometric fingerprint withdrawals, and device uninstall guard.\n- Custom Card Studio: personalize your embossed goal label and choose across Brushed Metal, Circuit, Weave, and Urban finishes.\n- Double-entry bank statement: inspect every earned session, withdrawal, and early refund in a clean chronological ledger.\n\nRecover includes a full-featured ad-supported plan. Upgrade to Recover Pro ($3.99/month or $24.99/year) to remove all ads and unlock all 11 card finishes and custom exchange rates.",
+    "keywords": "blocker,study,pomodoro,timer,productivity,adhd,habit,limit,discipline,ledger,phone,detox,social",
+    "whats_new": "Added open-ended stopwatch focus mode, silent haptic-only completion toggle for music listeners, 1-minute micro-withdrawals, and early re-lock credit refunds."
+  },
+  "google_play": {
+    "title": "Recover: Screen Time Wallet",
+    "short_description": "Bank focus minutes with your screen off. Spend credits to unlock apps.",
+    "full_description": "Recover turns your daily focus into spendable screen time on Android.\n\nStandard app timers fail because one tap dismisses them when willpower runs low. With Recover, distracting apps and websites stay locked behind the Android System Overlay Shield until you withdraw Credits from your Recover Card.\n\nWhy students and developers switch to Recover:\n1. Screen-Off Focus Sessions: Lock your phone screen and save battery while the Android Foreground Service tallies your focus Credits in the background.\n2. Open-Ended Stopwatch Mode: Enter deep flow without picking a fixed countdown length—tap Finish & Bank Credits whenever your study block ends.\n3. 1-Minute Micro-Withdrawals & Instant Refunds: Unlock apps for just 1 minute to answer a message, or tap Re-lock & Refund early to return unused minutes to your card.\n4. Silent Haptic Completion: Never let a timer alarm cut off your study music.\n5. Hardware-Enforced Discipline: Accelerometer motion detection, AR Lock Box Vault, biometric withdrawal verification, and Android Device Guard uninstall protection.\n6. On-Device Privacy: App usage checks (UsageStatsManager) run locally on your Android device and are never uploaded.\n\nRecover is available on our ad-supported plan, or upgrade to Recover Pro ($3.99/month or $24.99/year) for zero ads, all 11 metallic & carbon card skins, and custom Credit-to-Minute exchange rates."
+  }
+}

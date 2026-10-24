@@ -1,0 +1,121 @@
+{
+  "mode": "layout",
+  "original": {
+    "width": 509,
+    "height": 900
+  },
+  "clone": {
+    "width": 390,
+    "height": 844
+  },
+  "compared_at": {
+    "width": 390,
+    "height": 690
+  },
+  "height_delta_pct": 22.3,
+  "score": 28.7,
+  "verdict": "different",
+  "regions": [
+    {
+      "x": 0,
+      "y": 0,
+      "w": 501,
+      "h": 900,
+      "cells": 130,
+      "where": "middle centre"
+    },
+    {
+      "x": 334,
+      "y": 501,
+      "w": 167,
+      "h": 375,
+      "cells": 19,
+      "where": "bottom right"
+    },
+    {
+      "x": 125,
+      "y": 877,
+      "w": 167,
+      "h": 23,
+      "cells": 4,
+      "where": "bottom centre"
+    },
+    {
+      "x": 334,
+      "y": 459,
+      "w": 83,
+      "h": 41,
+      "cells": 2,
+      "where": "middle right"
+    },
+    {
+      "x": 375,
+      "y": 877,
+      "w": 83,
+      "h": 23,
+      "cells": 2,
+      "where": "bottom right"
+    },
+    {
+      "x": 417,
+      "y": 417,
+      "w": 41,
+      "h": 41,
+      "cells": 1,
+      "where": "middle right"
+    },
+    {
+      "x": 459,
+      "y": 459,
+      "w": 41,
+      "h": 41,
+      "cells": 1,
+      "where": "middle right"
+    },
+    {
+      "x": 250,
+      "y": 501,
+      "w": 41,
+      "h": 41,
+      "cells": 1,
+      "where": "middle centre"
+    },
+    {
+      "x": 292,
+      "y": 542,
+      "w": 41,
+      "h": 41,
+      "cells": 1,
+      "where": "middle centre"
+    },
+    {
+      "x": 459,
+      "y": 626,
+      "w": 41,
+      "h": 41,
+      "cells": 1,
+      "where": "bottom right"
+    },
+    {
+      "x": 459,
+      "y": 793,
+      "w": 41,
+      "h": 41,
+      "cells": 1,
+      "where": "bottom right"
+    },
+    {
+      "x": 83,
+      "y": 835,
+      "w": 41,
+      "h": 41,
+      "cells": 1,
+      "where": "bottom left"
+    }
+  ],
+  "files": {
+    "original": "replica/screens/S15.png",
+    "clone": "replica/clone-screens/S15.png"
+  },
+  "diff_image": "replica/diffs/diff-S15.png"
+}

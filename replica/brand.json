@@ -1,0 +1,30 @@
+{
+  "name": "Recover",
+  "tagline": "Reclaim your hours. Spend attention on your terms.",
+  "subdomain": "recoverwallet.vercel.app",
+  "alternate_subdomains": [
+    "recover-wallet.vercel.app",
+    "recoverfocus.vercel.app",
+    "recoverwallet.pages.dev",
+    "recoverfocus.pages.dev"
+  ],
+  "avoid": [
+    "Regrind",
+    "PlotPilot",
+    "PlotPilot Ltd"
+  ],
+  "domains": [
+    "regrind.app",
+    "plotpilot.com"
+  ],
+  "colors": [
+    "#33c75a",
+    "#22c55e",
+    "#16a34a",
+    "#090a0d",
+    "#14161c",
+    "#1e222b",
+    "#d8dde6",
+    "#38bdf8"
+  ]
+}

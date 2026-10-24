@@ -1,0 +1,133 @@
+{
+  "_about": "Custom themes for Screen Time Wallet / App Blocker category, extending default replica-entrepreneur themes.",
+  "request_patterns": [
+    "\\bi wish\\b",
+    "\\bplease add\\b",
+    "\\bwould be (nice|great|good|helpful)\\b",
+    "\\bwould love\\b",
+    "\\bneeds? (a|an|the|to|more)\\b",
+    "\\bno way to\\b",
+    "\\bthere'?s no (way|option)\\b",
+    "\\b(can'?t|cannot|unable to) (even )?(add|change|edit|set|choose|export|import|customi[sz]e|connect|undo|delete|turn off)\\b",
+    "\\b(missing|lacks|lacking)\\b",
+    "\\bdoesn'?t (have|support|let|allow)\\b",
+    "\\bif only\\b",
+    "\\bfeature request\\b",
+    "\\bwhy (can'?t|isn'?t|doesn'?t)\\b",
+    "\\bwould get 5 stars if\\b"
+  ],
+  "themes": [
+    {
+      "id": "screen_off_battery",
+      "label": "Screen-off background sessions & battery drain",
+      "kind": "complaint",
+      "patterns": [
+        "\\bscreen off\\b",
+        "\\bphone off\\b",
+        "\\bkeep the phone on\\b",
+        "\\bwasting battery\\b",
+        "\\bbattery\\b",
+        "\\block screen in background\\b"
+      ]
+    },
+    {
+      "id": "pricing",
+      "label": "Price, paywalls and subscription fatigue",
+      "kind": "complaint",
+      "patterns": [
+        "\\bexpensive\\b",
+        "\\boverpriced\\b",
+        "\\bpric(e|es|ey|ing)\\b",
+        "\\bpaywall",
+        "\\bsubscription\\b",
+        "\\bpaying for it\\b",
+        "\\bfree (plan|tier|version)\\b",
+        "\\bupgrade to\\b",
+        "\\bpremium\\b",
+        "\\bcost(s|ly)?\\b"
+      ]
+    },
+    {
+      "id": "bypass_loophole",
+      "label": "Bypassing blocks via Settings or OS permissions",
+      "kind": "complaint",
+      "patterns": [
+        "\\bget past it\\b",
+        "\\bturning permissions off\\b",
+        "\\bbypass",
+        "\\bworkaround\\b",
+        "\\bdisable\\b",
+        "\\buninstall\\b",
+        "\\bignore limit\\b"
+      ]
+    },
+    {
+      "id": "minimum_and_grace",
+      "label": "Inflexible withdrawal increments & no daily grace allowance",
+      "kind": "complaint",
+      "patterns": [
+        "\\bminimum limit\\b",
+        "\\b15 minutes\\b",
+        "\\bdaily amount\\b",
+        "\\b20 minutes for free\\b",
+        "\\bexchange rate\\b"
+      ]
+    },
+    {
+      "id": "sound_alerts",
+      "label": "Loud session alert interrupting music or quiet study",
+      "kind": "complaint",
+      "patterns": [
+        "\\bsilent\\b",
+        "\\bsound after\\b",
+        "\\blistening to music\\b",
+        "\\balarm\\b",
+        "\\bvolume\\b"
+      ]
+    },
+    {
+      "id": "bugs",
+      "label": "Bugs, crashes and Screen Time API glitches",
+      "kind": "complaint",
+      "patterns": [
+        "\\bcrash(es|ed|ing)?\\b",
+        "\\bbugs?\\b",
+        "\\bbuggy\\b",
+        "\\bglitch",
+        "\\bfreez(e|es|ing)\\b",
+        "\\bbroken\\b",
+        "\\b(doesn'?t|does not|stopped) work",
+        "\\bnot working\\b",
+        "\\berror\\b"
+      ]
+    },
+    {
+      "id": "platforms",
+      "label": "Android, desktop & cross-device support",
+      "kind": "request",
+      "patterns": [
+        "\\bandroid\\b",
+        "\\boffline\\b",
+        "\\bipad\\b",
+        "\\bdesktop\\b",
+        "\\bmac\\b",
+        "\\bwindows\\b",
+        "\\bextension\\b",
+        "\\bbrowser\\b"
+      ]
+    },
+    {
+      "id": "customisation",
+      "label": "Customisation of exchange rates, schedules & limits",
+      "kind": "request",
+      "patterns": [
+        "\\bcustomi[sz]",
+        "\\bexchange rate\\b",
+        "\\bdaily amount\\b",
+        "\\bschedule\\b",
+        "\\boption to\\b",
+        "\\bsettings?\\b"
+      ]
+    }
+  ]
+}

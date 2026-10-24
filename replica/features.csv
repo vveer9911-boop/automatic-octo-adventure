@@ -1,0 +1,34 @@
+feature,area,priority,original,clone,notes
+Onboarding habit quiz and wallet economy walkthrough,onboarding,must,yes,yes,S01 survey + value pitch built in OnboardingSurveyScreen
+Grant usage access and overlay blocker permissions,onboarding,must,yes,yes,S02 Android UsageStats + Overlay/DeviceAdmin setup built in PermissionsSetupScreen
+Focus Card wallet dashboard with live credit balance and minute equivalent,wallet,must,yes,yes,S04 main screen with metallic card built in WalletHomeScreen
+Block list for selecting apps categories and website domains,blocking,must,yes,yes,S10 persistent default-locked block list + custom domain input built in BlockListScreen
+App lock shield overlay blocking access when unlocked time is zero,blocking,must,yes,yes,S10 full-screen Android system shield overlay with quick Withdraw trigger
+Timed focus sessions that earn credits per minute completed,focus,must,yes,yes,S05 + S06 live credit streaming built in FocusSetupScreen and FocusActiveScreen
+Screen-Off focus sessions earning credits while phone is locked,focus,must,yes,yes,S06 background / screen-off earning mode built in FocusActiveScreen
+Withdraw credits to unlock apps starting from 1 minute with custom keypad,withdraw,must,yes,yes,S09 quick pills (1m-2h) + 0-9 keypad built in WithdrawScreen
+Automatic re-lock when withdrawn screen time expires,withdraw,must,yes,yes,S04 + S09 + S10 live countdown timer and auto-expiry
+Early re-lock button that refunds unused minutes back to credit balance,withdraw,must,yes,yes,S04 pro-rata credit refund + ledger entry built in relockEarlyWithRefund
+Itemized bank-statement transaction history for earned and spent credits,ledger,must,yes,yes,S12 chronological ledger with All/Earned/Spent filters and no Focus Score
+Top native ad pill banner during active focus session for free users,ads,must,no,yes,S06 NativeAdBannerCard focus-top-pill replaces coupon banner for free tier
+Post-focus session completion ad card for free users,ads,must,no,yes,S08 NativeAdBannerCard post-session-card shown on session complete summary
+Wallet dashboard native ad card for free users (hidden for Premium),ads,must,no,yes,S04 NativeAdBannerCard dashboard-compact shown on Wallet Home for free tier
+Open-ended stopwatch focus mode without fixed duration limit,focus,should,no,yes,Entrepreneur Fix #1 (DE 5* review): count-up stopwatch mode on S05
+Silent haptic-only session completion toggle for music listeners,focus,should,no,yes,Entrepreneur Fix #4 (GB 4* review): silent completion alert on S05
+Android native APK support (UsageStatsManager + Overlay Shield),platform,must,no,yes,Entrepreneur Fix #6: brings iOS-only Screen Time Wallet concept to Android
+Custom exchange rate setting (credits per minute of screen time),economy,should,yes,yes,S09 + S14 configurable cost ratio (0.5 / 1 / 2 / 5 credits per min)
+Card Studio customizer with Weave Urban Circuit skins and custom label,customization,should,yes,yes,S13 horizontal carousels (11 procedural skins) + embossed card text editor
+Motion detection via accelerometer that forfeits session on phone movement,anti-cheat,should,yes,yes,S05 + S06 hardware DeviceMotionEvent + warning/forfeit flow
+Uninstall protection preventing app deletion while blocks are active,anti-cheat,should,yes,yes,S14 Device Admin guard locked when blocks are active and no withdrawal is running
+Biometric security confirmation (Fingerprint / Face Unlock) on withdrawals,security,should,yes,yes,S09 + S14 biometric verification modal before spending credits
+Weekly Global and Friends leaderboards showing mini Focus Cards and hours,social,should,yes,yes,S15 Global/Friends tabs + weekly tournament card + mini FocusCard badges
+AR Lock Box camera vault to virtually lock phone during focus,focus,could,yes,yes,S07 live camera stream + 3D spatial vault sealing flow
+Add friends by handle or invite code to compare balances and hours,social,could,yes,yes,S15 Add Friend sheet adding handles to Friends leaderboard
+Home screen widget and ongoing lock-screen notification for active timers,system,could,yes,yes,S16 Android 4x2 AppWidget preview + Foreground Service notification
+Tamper-resistant monotonic clock validation against manual time changes,anti-cheat,could,yes,yes,detectClockTamper compares wall clock vs monotonic performance clock
+Premium plan paywall removing ads and unlocking strict modes and card skins,monetization,could,yes,yes,S03 Free (ad-supported) vs Pro (ad-free) upgrade flow
+Daily spending limit with interactive circular radial dial,limits,should,yes,skip,Removed per user request: no daily spend limit cap or radial dial
+Scratch coupons after focus sessions for up to 1.3x bonus credits,gamification,should,yes,skip,Removed per user request: replaced top banner and post-session modal with ad slots
+Focus Score credit rating based on daily earned credits kept vs spent,gamification,should,yes,skip,Removed per user request: keep transaction history clean without Focus Score
+Apple iOS FamilyControls and ManagedSettings private framework binding,platform,could,yes,skip,iOS-only API; replaced by Android UsageStats and Accessibility/Overlay blocker in APK
+Original Regrind user network and proprietary card bitmap illustrations,brand,could,yes,skip,Owned by PlotPilot Ltd; rebuilt clean-room with procedural SVG/Canvas card finishes

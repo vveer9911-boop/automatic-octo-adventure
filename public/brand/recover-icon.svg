@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="96 122 206 156" fill="currentColor">
+  <!-- Top aerodynamic wing -->
+  <path d="M106 132 H246 C271 132 289 149 291 170 H144 C133 170 124 164 118 154 L106 132 Z" />
+  <!-- Middle curved bowl wing -->
+  <path d="M161 181 H292 C290 202 278 216 263 216 H192 C181 216 173 210 167 200 L161 181 Z" />
+  <!-- Bottom diagonal R-leg blade -->
+  <path d="M212 229 H268 L291 267 H249 C238 267 230 261 224 251 L212 229 Z" />
+</svg>
